@@ -136,16 +136,11 @@
 		<servlet-api-version>3.0.1</servlet-api-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	<distribution management>
+	<distributionManagement>
 		<repository>
 			<id>FNR</id>
 			<name>Internal Release Repositroy</name>
 			<url>http://localhost:8081/nexus/content/repositories/FNR/</url>
 		</repository>
-		<snapshot repository>
-			<id>SNR</id>
-			<name>Internal Snapshot Repositroy</name>
-			<url>http://localhost:8081/nexus/content/repositories/SNR/</url>
-		</snapshot repository>
-	</distribution management>
+	</distributionManagement>
 </project>
