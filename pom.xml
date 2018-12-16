@@ -138,9 +138,9 @@
 	</properties>
 	<distributionManagement>
 		<repository>
-			<id>FNR</id>
+			<id>SNR</id>
 			<name>Internal Release Repositroy</name>
-			<url>http://localhost:8081/nexus/content/repositories/FNR/</url>
+			<url>http://localhost:8081/nexus/content/repositories/SNR/</url>
 		</repository>
 	</distributionManagement>
 </project>
